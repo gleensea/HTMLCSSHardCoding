@@ -1,2 +1,2 @@
-<https://gleensea.github.io/HTMLCSSHardCoding> github
+link:[github](https://gleensea.github.io/HTMLCSSHardCoding)
 <https://leeyt0402.netlify.app/>netlify
