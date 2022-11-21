@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>객체 생성 및 활용</h3>
+    <hr>
+    <script>
+        // Date 객체 생성
+        var today = new Date();
+
+        var now = new Date();
+        var year = now.getFullYear();
+        var month = now.getMonth();
+        var Date = now.getDate();
+
+        document.write('햔재 시각은' + today.toLocaleString() + '<br>');
+        document.write(year + '년' + '<br>');
+        document.write(month + 1 + '월' + '<br>');
+        document.write(Date + '일' + '<br>');
+
+        //string 객체 생성
+        var myStr = new String("자바스크립트 공부하기");
+        document.write('myStr 내용은' + myStr + '<br>');
+        document.write('myStr 길이는' + myStr.length + '<br>');
+    </script>
+</body>
+</html>
